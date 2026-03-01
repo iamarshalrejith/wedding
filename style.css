@@ -82,7 +82,7 @@ body {
 
 .temple-wrapper {
     width: 100%;
-    min-height: 100vh;
+    height: 299rem; 
     overflow: hidden;
     position: relative;
 }
@@ -92,7 +92,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     width: 200%;   /* wider like before */
-    height: auto;
+    height: auto ;
 }
 
 /* Medium screens */
@@ -151,7 +151,7 @@ body {
 
 .section-3 {
     position: absolute;
-    bottom: -2000px;
+    bottom: -3000px;
     left: 0;
     width: 100%;
     height: 100%;
@@ -169,7 +169,7 @@ body {
 
 @media (min-width:425px){
     .section-3{
-        bottom: -2300px;
+        bottom: -3000px;
     }
 }
 .ganesha {
@@ -324,4 +324,62 @@ body {
 
 .map-btn:hover {
   background: #ddd;
+}
+
+.temple2{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;   /* wider like before */
+    height: auto;
+}
+
+.countdown-section {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.temple2 {
+  width: 100%;
+  display: block;
+}
+
+.countdown-overlay {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  width: 90%;              /* 👈 ADD THIS */
+  max-width: 700px;        /* 👈 optional for large screens */
+
+  padding: 15px 30px;
+  border-radius: 10px;
+  color: #fff;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.countdown-overlay h2 {
+  margin-bottom: 15px;
+  font-size: 35px;
+  letter-spacing: 2px;
+  font-family: 'Cormorant Garamond', serif;
+  color: #E0A83A;
+  padding: 16px;
+}
+
+#countdown {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.countdown-para {
+  width: 100%;            /* 👈 fill parent */
+  color: #E0A83A;
+  font-family: 'Playfair Display', serif;
+  font-size: 10px;        /* slightly bigger */
+  line-height: 1.8;
+  text-align: center;
 }
