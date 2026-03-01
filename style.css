@@ -53,6 +53,7 @@ body {
     .wedding img {
         width: 427px;
     }
+
 }
 
 
@@ -165,6 +166,12 @@ body {
 
 }
 
+
+@media (min-width:425px){
+    .section-3{
+        bottom: -2300px;
+    }
+}
 .ganesha {
     font-size: 16px;
     margin-bottom: 30px;
